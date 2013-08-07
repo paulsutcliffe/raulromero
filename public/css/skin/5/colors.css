@@ -1,0 +1,217 @@
+/*
+Theme Name: Soonix
+Theme URI : http://themeforest.net/item/soonix-responsive-coming-soon-template/5041295
+Description: Soonix _ coming soon template
+Author: GenixTheme (http://themeforest.net/user/GenixTheme)
+Author URI: http://www.www.GenixTheme.com
+Version: 1.1
+Designed by GenixTheme
+
+
+ Table of Content
+====================
+	#Main structure
+	#Newsletter
+	#Social Icons
+	#Header
+	#Countdown Timer
+	#Google Map
+	#Form
+	#Preloader
+	#Tooltip
+	#Responsive styles
+==================== */
+/*-------------Main structure-------------*/
+body {
+background-color:#fff200;
+color:#fff;
+}
+#main p ,#main {
+color:#fff;
+}
+.subpage h1,.subpage h2,.subpage h3,.subpage h4,.subpage h5,.subpage h6 {
+color:#ccc;
+}
+a:link {
+color:#ddd;
+text-decoration : none;
+ }
+a:visited {
+color:#ddd;
+text-decoration : none;
+}
+a:hover {
+color:#fff;
+text-decoration : none;
+}
+a:active {
+color:#ddd;
+text-decoration : none;
+}
+::selection {
+background-color: #fff;
+color: #444;
+}
+::-moz-selection{
+background-color: #fff;
+color: #444;
+}
+.subpage {
+background-color:#444;
+color:#eee;
+}
+body.no-svg #close {
+background: url(../../../img/close.png) no-repeat 100% 0;
+}
+#close {
+background: url(../../../img/close.svg) no-repeat 100% 0;
+}
+/*-------------Newsletter---------*/
+body.no-svg #underlayer {
+background:#444 url(../../../img/bg.png) repeat;
+}
+#underlayer {
+background:#444 url(../../../img/bg-2x.png) repeat;
+background-size: 256px 256px;
+}
+#newsletterInput {
+border:1px solid #ededed !important;
+color:#000 !important;
+background-color:#fff !important;
+}
+#newsletterSubmit {
+background-color:#E6574A;
+color: #333;
+border: none;
+}
+#newsletterSubmitValid {
+background-color:#8FD561;
+}
+#newsletterSubmitInvalid {
+background-color:#E05050;
+}
+#newsletterMessage {
+color:#ddd;
+}
+/*-------------Social Icons---------*/
+.icon a{
+background-color:#fff200;
+color:#fff;
+}
+#iconhover {
+background-color:#fff200;
+}
+.social-text {
+color:#fff;
+}
+/*-------------Header------------*/
+#wrapHeader {
+background-color:#444;
+-moz-box-shadow: 0 4px 10px rgba(0,0,0,0.4),0 -7px 10px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0 4px 10px rgba(0,0,0,0.4),0 -7px 10px rgba(0,0,0,0.4);
+box-shadow: 0 4px 10px rgba(0,0,0,0.4),0 -7px 10px rgba(0,0,0,0.4);
+filter: progid:DXImageTransform.Microsoft.Shadow(Color=#000000, Strength=5, Direction=180);
+}
+#slogan {
+color:#eee;
+}
+#menu li a {
+color:#eee;
+border-left:1px solid #4D4D4D;
+}
+#menu li a:hover {
+color:#eee;
+}
+#menu-tooltip {
+color:#eee;
+}
+#togglemenu {
+background:none;
+border: none;
+color: #FFF;
+}
+/*-----------Countdown Timer---------*/
+.digit{
+color:#fff;
+}
+.time-type {
+color:#fff;
+}
+#lside, #rside {
+color:#fff;
+}
+/*--------------Google Map-----------------*/
+body.no-svg #btmap {
+background:#444 url(../../../img/close.png) no-repeat 0% 0;
+}
+#btmap{
+background:#444 url(../../../img/close.svg) no-repeat 0% 0;
+}
+#holder,#map_canvas{
+background: #eee;
+}
+body.no-svg .tipbox {
+background: url('../../../img/tipbox.png') no-repeat center bottom;
+}
+.tipbox {
+background: url('../../../img/tipbox.svg') no-repeat center bottom;
+border-top:10px solid #444;
+}
+.info-text{
+background-color:#E6574A;
+color:#fff;
+}
+/*---------------Form-----------------*/
+input , textarea {
+background:none !important;
+border:1px solid #ededed !important;
+color:#eee !important;
+}
+input[type="submit"] {
+background:#ededed !important;
+color:#444 !important;
+}
+/* Color of input labels */
+input:-moz-placeholder,textarea:-moz-placeholder {
+  color: #ddd;
+}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+  color: #ddd;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+  color: #ddd;
+}
+.message {
+color:#eee;
+}
+/*--------------Preloader-------------------*/
+#preloader {
+background-color:#fff;
+}
+#status {
+background: url(../../../img/loader.gif) no-repeat center;
+}
+/*---------------Tooltip--------------------*/
+.tooltip.bottom .tooltip-arrow {
+border-bottom-color:#fff;
+}
+.tooltip-inner {
+color: #505050;
+background-color: #FFF;
+}
+/*----------------Responsive styles----------------*/
+@media (max-width:480px) {
+#btmap {
+background-color: #fff
+}
+.nav-collapse {
+background-color: #FFF;
+}
+#menu li a {
+color:#0A0909;
+border-left:1px solid #F0F0F0;
+}
+#menu li a:hover {
+color:#0A0909;
+}
+}

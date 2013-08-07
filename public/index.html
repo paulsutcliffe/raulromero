@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Kosmyka | Estamos desarrollando una nueva página web</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- MOBILE SPECIFIC METAS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- ======================[STYLE SECTION]========================== -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/social-icon.css" rel="stylesheet">
+		<link href="css/batch-icon.css" rel="stylesheet">
+
+		<!-- SKIN -->
+		<link href="css/skin/4/colors.css" rel="stylesheet">
+		<!-- END OF SKIN -->
+		<!-- ===================[END OF STYLE SECTION]======================= -->
+
+		<link href='http://fonts.googleapis.com/css?family=Open%20Sans:300|Dosis:500' rel='stylesheet' type='text/css'>
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/kosmyka-icon-144.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/kosmyka-icon-114.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/kosmyka-icon-72.png">
+		<link rel="apple-touch-icon-precomposed" href="img/ico/kosmyka-icon-57.png">
+		<link rel="shortcut icon" href="img/ico/favicon.png">
+	</head>
+
+	<body>
+		<!--===================[PRELOADER SECTION]===================-->
+		<div id="preloader">
+			<div id="status"></div>
+		</div>
+		<!--===================[END OF  PRELOADER SECTION]===================-->
+
+	<div id="wrapHeader">
+			<img id="logo" src="img/logo-kosmyka.png" alt="Kosmyka" />
+  </div>
+
+
+		<!--=========================[CONTENT SECTION]=========================-->
+		<div class="container-fluid" id="primaryContent">
+
+			<!--=======================[MAIN SECTION]======================-->
+			<div class="row-fluid">
+				<div class="span12" id="main">
+					<!-- HEADING -->
+					<div class="row-fluid">
+						<div class="span8 offset2 text-center">
+							<h2>Estamos desarrollando una nueva web</h2>
+						</div>
+					</div>
+					<!-- END OF HEADING -->
+
+					<!-- COUNTDOWN TIMER -->
+					<div class="row-fluid">
+						<div id="countdown" class="span12 countdownHolder">
+							<div class="row-fluid">
+								<div id="lside" class="hidden-phone">{</div>
+								<div id="mside">
+									<div class="countDays">
+										<div class="position" id="d2">
+											<span class="digit"></span>
+										</div>
+										<div class="position" id="d3">
+											<span class="digit"></span>
+										</div>
+										<div class="time-type">Días</div>
+									</div>
+									<div class="countHours">
+										<div class="position" id="h1">
+											<span class="digit"></span>
+										</div>
+										<div class="position" id="h2">
+											<span class="digit"></span>
+										</div>
+										<div class="time-type">horas</div>
+									</div>
+									<div class="countMinutes">
+										<div class="position" id="m1">
+											<span class="digit"></span>
+										</div>
+										<div class="position" id="m2">
+											<span class="digit"></span>
+										</div>
+										<div class="time-type">minutos</div>
+									</div>
+									<div class="countSeconds">
+										<div class="position" id="s1">
+											<span class="digit"></span>
+										</div>
+										<div class="position" id="s2">
+											<span class="digit"></span>
+										</div>
+										<div class="time-type">Segundos</div>
+									</div>
+								</div>
+								<div id="rside" class="hidden-phone">}</div>
+							</div>
+						</div>
+					</div>
+					<!-- END OF COUNTDOWN TIMER -->
+
+					<!-- SOCIAL ICONS -->
+					<div class="row-fluid">
+						<div id="box-social" class="span12 text-center">
+							<span class="social-text">Kosmyka, diseño y programación de páginas y aplicaciones web dinámicas.</span>
+							<ul>
+								<li class="icon">
+									<a href="http://www.twitter.com/kosmyka" title="twitter"><i class="mk-social-twitter"></i></a>
+								</li>
+								<li class="icon">
+									<a href="http://www.facebook.com/kosmykaweb" title="Facebook"><i class="mk-social-facebook"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- END OF SOCIAL ICONS -->
+
+				</div>
+			</div>
+			<!--===================[END OF MAIN SECTION]===================-->
+
+		</div>
+		<!--=======================[END OF CONTENT SECTION]=======================-->
+
+
+		<!--=========================[JAVASCRIPT SECTION]=========================-->
+
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<!-- an alternative access to jquery library if the page can't access to CDN-->
+		<script>window.jQuery || document.write('<script type="text/javascript" src="js/jquery-latest.min.js"><\/script>')</script>
+
+		<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.countdown.js"></script>
+		<script type="text/javascript" src="js/jquery.form.js"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+		<script type="text/javascript" src="js/infobox_packed.js"></script>
+		<script type="text/javascript" src="js/svg_fallback.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+
+		<!-- Tooltip -->
+		<script>
+		$(document).ready(function(){
+			$('body').tooltip({
+				selector: "a[data-toggle=tooltip]"
+			})
+		});
+		</script>
+		<!-- End of Tooltip -->
+
+		<!-- COUNTDOWN TIMER -->
+		<script>
+		$(document).ready(function(){
+			//Enter your launching date here
+			ts = new Date(2013, 8, 7);
+			$('#countdown').countdown({
+				timestamp	: ts
+			});
+		});
+		</script>
+		<!-- END OF COUNTDOWN TIMER -->
+
+		<!-- GOOGLE MAP -->
+		<script>
+		$(document).ready(function(){
+			var options = {
+			style :[
+			{
+				featureType: "all",
+				stylers: [
+					{ weight: 1 },
+					{ saturation: -100 },
+					{ Gamma: 0.75 }
+				]
+			}],
+			//You need Latitude and Longitude of your place.for finding it go to http://www.latlong.net
+			lat:48.825183,
+			lng:2.1975769,
+			//Type of map,just use on o this values {ROADMAP , SATELLITE , HYBRID , TERRAIN}
+			mapType : "ROADMAP",
+			// Address of your marker icon in map
+			//Don't worry about retina displays, the page automaticly load "svg" format in retina displays
+			markericon:'img/marker.png',
+			//change text of infoBox with your own,if you want to disable the infoBox on your map,leave it empty.
+			infoText:'We are here my friends, join us to have exciting experience'
+			}
+			gmap(options);
+		});
+		</script>
+		<!-- END OF GOOGLE MAP -->
+		<!--======================[END OF JAVASCRIPT SECTION]======================-->
+	</body>
+</html>
