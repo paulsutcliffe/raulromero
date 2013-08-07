@@ -1,0 +1,22 @@
+defaults: &defaults
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  username: root
+  password: chimpance99
+
+development:
+  database: raulromero_development
+  socket: /tmp/mysql.sock
+  <<: *defaults
+
+test: &test
+  database: raulromero_test
+  socket: /tmp/mysql.sock
+  <<: *defaults
+
+production:
+  host: localhost
+  database: raulromero_production
+  <<: *defaults
